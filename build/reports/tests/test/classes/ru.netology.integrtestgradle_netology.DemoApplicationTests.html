@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - DemoApplicationTests</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>DemoApplicationTests</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/ru.netology.integrtestgradle_netology.html">ru.netology.integrtestgradle_netology</a> &gt; DemoApplicationTests</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">1</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">0.562s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">testProd()</td>
+<td class="success">0.562s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>15:43:33.950 [Test worker] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [DemoApplicationTests]: using SpringBootContextLoader
+15:43:33.957 [Test worker] DEBUG org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [ru.netology.integrtestgradle_netology.DemoApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+15:43:33.958 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [ru.netology.integrtestgradle_netology.DemoApplicationTests]: DemoApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+15:43:33.989 [Test worker] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Using ContextCustomizers for test class [DemoApplicationTests]: [DisableObservabilityContextCustomizer, PropertyMappingContextCustomizer, Customizer, ExcludeFilterContextCustomizer, DuplicateJsonObjectContextCustomizer, MockitoContextCustomizer, TestRestTemplateContextCustomizer]
+15:43:34.058 [Test worker] DEBUG org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider - Identified candidate component class: file [C:\Users\user\IdeaProjects\integrationTest_netology\build\classes\java\main\ru\netology\integrtestgradle_netology\IntegrTestGradleNetologyApplication.class]
+15:43:34.060 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration ru.netology.integrtestgradle_netology.IntegrTestGradleNetologyApplication for test class ru.netology.integrtestgradle_netology.DemoApplicationTests
+15:43:34.167 [Test worker] DEBUG org.springframework.test.context.util.TestContextSpringFactoriesUtils - Skipping candidate TestExecutionListener [org.springframework.test.context.transaction.TransactionalTestExecutionListener] due to a missing dependency. Specify custom TestExecutionListener classes or make the default TestExecutionListener classes and their required dependencies available. Offending class: [org/springframework/transaction/interceptor/TransactionAttributeSource]
+15:43:34.169 [Test worker] DEBUG org.springframework.test.context.util.TestContextSpringFactoriesUtils - Skipping candidate TestExecutionListener [org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener] due to a missing dependency. Specify custom TestExecutionListener classes or make the default TestExecutionListener classes and their required dependencies available. Offending class: [org/springframework/transaction/interceptor/TransactionAttribute]
+15:43:34.171 [Test worker] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners for test class [DemoApplicationTests]: [ServletTestExecutionListener, DirtiesContextBeforeModesTestExecutionListener, ApplicationEventsTestExecutionListener, MockitoTestExecutionListener, DependencyInjectionTestExecutionListener, DirtiesContextTestExecutionListener, EventPublishingTestExecutionListener, RestDocsTestExecutionListener, MockRestServiceServerResetTestExecutionListener, MockMvcPrintOnlyOnFailureTestExecutionListener, WebDriverTestExecutionListener, MockWebServiceServerTestExecutionListener, ResetMocksTestExecutionListener]
+15:43:34.175 [Test worker] DEBUG org.springframework.test.context.support.DependencyInjectionTestExecutionListener - Performing dependency injection for test class ru.netology.integrtestgradle_netology.DemoApplicationTests
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v3.0.2)
+
+2023-02-12T15:43:34.488+03:00  INFO 12032 --- [    Test worker] r.n.i.DemoApplicationTests               : Starting DemoApplicationTests using Java 17.0.6 with PID 12032 (started by user in C:\Users\user\IdeaProjects\integrationTest_netology)
+2023-02-12T15:43:34.490+03:00  INFO 12032 --- [    Test worker] r.n.i.DemoApplicationTests               : No active profile set, falling back to 1 default profile: &quot;default&quot;
+2023-02-12T15:43:35.775+03:00  INFO 12032 --- [    Test worker] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 0 (http)
+2023-02-12T15:43:35.787+03:00  INFO 12032 --- [    Test worker] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-02-12T15:43:35.788+03:00  INFO 12032 --- [    Test worker] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-02-12T15:43:35.885+03:00  INFO 12032 --- [    Test worker] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-02-12T15:43:35.887+03:00  INFO 12032 --- [    Test worker] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1374 ms
+2023-02-12T15:43:36.497+03:00  INFO 12032 --- [    Test worker] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2023-02-12T15:43:36.571+03:00  INFO 12032 --- [    Test worker] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 64253 (http) with context path ''
+2023-02-12T15:43:36.588+03:00  INFO 12032 --- [    Test worker] r.n.i.DemoApplicationTests               : Started DemoApplicationTests in 2.384 seconds (process running for 3.642)
+2023-02-12T15:43:36.659+03:00  INFO 12032 --- [    Test worker] o.t.d.DockerClientProviderStrategy       : Loaded org.testcontainers.dockerclient.NpipeSocketClientProviderStrategy from ~/.testcontainers.properties, will try it first
+2023-02-12T15:43:37.194+03:00  INFO 12032 --- [    Test worker] o.t.d.DockerClientProviderStrategy       : Found Docker environment with local Npipe socket (npipe:////./pipe/docker_engine)
+2023-02-12T15:43:37.196+03:00  INFO 12032 --- [    Test worker] org.testcontainers.DockerClientFactory   : Docker host IP address is localhost
+2023-02-12T15:43:37.233+03:00  INFO 12032 --- [    Test worker] org.testcontainers.DockerClientFactory   : Connected to docker: 
+  Server Version: 20.10.22
+  API Version: 1.41
+  Operating System: Docker Desktop
+  Total Memory: 12721 MB
+2023-02-12T15:43:37.238+03:00  INFO 12032 --- [    Test worker] o.t.utility.ImageNameSubstitutor         : Image name substitution will be performed by: DefaultImageNameSubstitutor (composite of 'ConfigurationFileImageNameSubstitutor' and 'PrefixingImageNameSubstitutor')
+2023-02-12T15:43:37.494+03:00  INFO 12032 --- [    Test worker] o.t.utility.RegistryAuthLocator          : Credential helper/store (docker-credential-desktop) does not have credentials for index.docker.io
+2023-02-12T15:43:38.205+03:00  INFO 12032 --- [    Test worker] org.testcontainers.DockerClientFactory   : Ryuk started - will monitor and terminate Testcontainers containers on JVM exit
+2023-02-12T15:43:38.206+03:00  INFO 12032 --- [    Test worker] org.testcontainers.DockerClientFactory   : Checking the system...
+2023-02-12T15:43:38.207+03:00  INFO 12032 --- [    Test worker] org.testcontainers.DockerClientFactory   : ?? Docker server version should be at least 1.6.0
+2023-02-12T15:43:38.368+03:00  INFO 12032 --- [    Test worker] org.testcontainers.DockerClientFactory   : ?? Docker environment should have more than 2GB free disk space
+2023-02-12T15:43:38.386+03:00  INFO 12032 --- [    Test worker] docker[devapp:latest]                    : Creating container for image: devapp:latest
+2023-02-12T15:43:38.427+03:00  INFO 12032 --- [    Test worker] docker[devapp:latest]                    : Starting container with ID: 8e2bb9935b87d0a5c92f4b48573713af3414d7edb8b18ee7dbaf9b9b6f811db7
+2023-02-12T15:43:39.001+03:00  INFO 12032 --- [    Test worker] docker[devapp:latest]                    : Container devapp:latest is starting: 8e2bb9935b87d0a5c92f4b48573713af3414d7edb8b18ee7dbaf9b9b6f811db7
+2023-02-12T15:43:42.575+03:00  INFO 12032 --- [    Test worker] docker[devapp:latest]                    : Container devapp:latest started in PT4.2061155S
+2023-02-12T15:43:42.581+03:00  INFO 12032 --- [    Test worker] docker[prodapp:latest]                   : Creating container for image: prodapp:latest
+2023-02-12T15:43:42.618+03:00  INFO 12032 --- [    Test worker] docker[prodapp:latest]                   : Starting container with ID: 5b7872138e4d72c0688e882a7c91f57b7a3e037f24b7b32fec24534d966c394d
+2023-02-12T15:43:43.157+03:00  INFO 12032 --- [    Test worker] docker[prodapp:latest]                   : Container prodapp:latest is starting: 5b7872138e4d72c0688e882a7c91f57b7a3e037f24b7b32fec24534d966c394d
+2023-02-12T15:43:47.179+03:00  INFO 12032 --- [    Test worker] docker[prodapp:latest]                   : Container prodapp:latest started in PT4.604078S
+номер порта: 32899
+&lt;200 OK OK,Current profile is production,[Content-Type:&quot;text/plain;charset=UTF-8&quot;, Content-Length:&quot;29&quot;, Date:&quot;Sun, 12 Feb 2023 12:43:47 GMT&quot;, Keep-Alive:&quot;timeout=60&quot;, Connection:&quot;keep-alive&quot;]&gt;
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 7.6</a> at 12 февр. 2023 г., 15:43:49</p>
+</div>
+</div>
+</body>
+</html>
